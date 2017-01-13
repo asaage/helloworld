@@ -1,13 +1,13 @@
 {
-    "name": "saage-it/helloworld",
-    "description": "This package does nothing yet.",
-    "homepage":"https://saage-it.de",
-	"license":"WTFPL",
-	"authors":[
+	"name" : "saage-it/helloworld",
+	"description" : "This package does nothing yet.",
+	"homepage" : "https://saage-it.de",
+	"license" : "WTFPL",
+	"authors" : [
 		{
-			"name": "André Saage",
-			"email": "mail@saage-it.de",
-			"homepage": "https://saage-it.de"
+			"name" : "André Saage",
+			"email" : "mail@saage-it.de",
+			"homepage" : "https://saage-it.de"
 		}
-    ]
+	]
 }
