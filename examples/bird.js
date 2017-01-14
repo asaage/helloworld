@@ -14,7 +14,7 @@ function draw() {
   stroke(2);
   beginShape();
   for (let i=0; i<count; i++){
-    vertex(a[i].x, a[i].y);
+    vertex(a[i].x, a[i].y, a[i].z);
   }
   endShape(CLOSE);
 }
