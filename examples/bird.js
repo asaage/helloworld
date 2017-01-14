@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(228,0,43);
-  camera(cam.x,cam.y,cam.z);
+  camera(0, 0, sin(frameCount * 0.01) * 100);
   stroke(2);
   //beginShape();
   for (let i=0; i<count-1; i++){
