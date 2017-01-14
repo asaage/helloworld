@@ -15,6 +15,7 @@ function draw() {
   background(228,0,43);
   orbitControl();
   ambientLight(100, 80, 80);
+  pointLight(200, 200, 200, locX, locY, 0);
   ambientMaterial(250);
   //beginShape();
   for (let i=0; i<count; i++){
