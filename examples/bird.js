@@ -23,8 +23,8 @@ function draw() {
   for (let i=0; i<count; i++){
     push();
     translate(a[i].x, a[i].y, a[i].z);
-    //ambientMaterial(250);
-    normalMaterial();
+    ambientMaterial(250);
+    //normalMaterial();
     sphere(20);
     pop();
   }
