@@ -15,6 +15,8 @@ function draw() {
   background(228,0,43);
   orbitControl();
   ambientLight(100, 80, 80);
+  let locY = (mouseY / height - 0.5) * (-2);
+  let locX = (mouseX / width - 0.5) * 2;
   pointLight(200, 200, 200, locX, locY, 0);
 
   //beginShape();
