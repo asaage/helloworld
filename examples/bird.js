@@ -2,7 +2,7 @@ console.log("bird");
 const count = 12;
 let a = [];
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight).parent('container');
   for (let i=0; i<count; i++){
     a.push(createVector(random(width),random(height),0));
   }
