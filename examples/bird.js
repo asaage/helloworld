@@ -16,11 +16,13 @@ function draw() {
   orbitControl();
   ambientLight(100, 80, 80);
   pointLight(200, 200, 200, locX, locY, 0);
-  ambientMaterial(250);
+
   //beginShape();
   for (let i=0; i<count; i++){
     push();
     translate(a[i].x, a[i].y, a[i].z);
+    //ambientMaterial(250);
+    normalMaterial();
     sphere(20);
     pop();
   }
