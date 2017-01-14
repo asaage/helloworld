@@ -1,19 +1,19 @@
 console.log("bird");
-const dots = 12;
+const count = 12;
 let a = [];
 function setup() {
   createCanvas(720, 400);
-  for (let i=0; i<dots; i++){
-    a[i]=random(width);
+  for (let i=0; i<count; i++){
+    a.push(createVector(random(width),random(height),0));
   }
 }
 
 function draw() {
-  background(55);
+  background(228,0,43);
   stroke(2);
   beginShape();
-  for (let i=0; i<dots; i++){
-    vertex(a[i], random(height));
+  for (let i=0; i<count; i++){
+    vertex(a[i].x, a[i].y);
   }
   endShape(CLOSE);
 }
