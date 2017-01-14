@@ -12,11 +12,11 @@ function setup() {
 function draw() {
   background(228,0,43);
   stroke(2);
-  beginShape();
-  for (let i=0; i<count; i++){
-    vertex(a[i].x, a[i].y, a[i].z);
+  //beginShape();
+  for (let i=0; i<count-1; i++){
+    line(a[i].x, a[i].y, a[i].z, a[i+1].x, a[i+1].y, a[i+1].z);
   }
-  endShape(CLOSE);
+  //endShape(CLOSE);
 }
 
 
