@@ -1,12 +1,13 @@
 console.log("bird");
 const count = 12;
 let a = [];
-let cam = createVector(200, 200, 200);
+let cam;
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL).parent('container');
   for (let i=0; i<count; i++){
     a.push(createVector(random(width),random(height),0));
   }
+  cam = createVector(200, 200, 200);
   //translate(-width/2,-height/2,0);
 }
 
