@@ -6,6 +6,7 @@ function setup() {
   for (let i=0; i<count; i++){
     a.push(createVector(random(width),random(height),0));
   }
+  translate(-width/2,-height/2,0);
 }
 
 function draw() {
