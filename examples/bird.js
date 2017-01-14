@@ -14,7 +14,7 @@ function setup() {
 function draw() {
   background(228,0,43);
   orbitControl();
-  
+  fill(255);
   //beginShape();
   for (let i=0; i<count; i++){
     push();
