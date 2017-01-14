@@ -23,6 +23,7 @@ function draw() {
   for (let i=0; i<count; i++){
     push();
     translate(a[i].x, a[i].y, a[i].z);
+    fill(250, 0, 0);
     ambientMaterial(250);
     //normalMaterial();
     sphere(20);
