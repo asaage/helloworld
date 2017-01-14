@@ -13,7 +13,7 @@ function draw() {
   stroke(2);
   beginShape();
   for (let i=0; i<dots; i++){
-    vertex(a[i], random(heigth));
+    vertex(a[i], random(height));
   }
   endShape(CLOSE);
 }
